@@ -1,0 +1,32 @@
+Bootstrap: docker
+From: rocker/r-ver
+
+%post
+   # install dependencies
+   apt update
+   apt install -y curl gnupg perl libcurl4-openssl-dev libicu-dev libssl-dev libx11-dev pandoc
+   curl -Ls https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+   echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
+   apt-get update
+   apt-get install -y google-chrome-stable
+
+   Rscript -e "install.packages('renv', repos = 'https://cloud.r-project.org/')"
+   cd /mnt
+   Rscript -e "renv::restore()"
+   cd
+   
+   # install quarto
+   curl -Ls https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.31/quarto-1.7.31-linux-amd64.deb -o quarto.deb && \
+   dpkg -i quarto.deb&& \
+   rm quarto.deb
+
+   # install TinyTeX
+   quarto install tinytex
+   /root/.TinyTeX/bin/x86_64-linux/tlmgr install libertinus libertinus-fonts libertinus-otf orcidlink
+
+%environment
+    export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+    export XDG_CACHE_HOME=/tmp/quarto_cache_home
+    export XDG_DATA_HOME=/tmp/quarto_data_home
+    # add /root/.TinyTex/bin to PATH in the /etc/profile
+    export PATH=/root/.TinyTeX/bin/x86_64-linux:$PATH
