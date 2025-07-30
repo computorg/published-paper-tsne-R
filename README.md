@@ -13,9 +13,9 @@ using some advanced formatting features. We warmly thank the authors of
 t-SNE and the editor of JMLR for allowing us to use their work to
 illustrate the Computo spirit.*
 
-[![build
-status](https://github.com/computorg/published-paper-tsne-R/workflows/build/badge.svg)](https://github.com/computorg/published-paper-tsne-R/)
-[![DOI:10.57750/xxx-xxx](https://img.shields.io/badge/DOI-10.57750/xxx-xxx-034E79.svg)](https://doi.org/10.57750/xxx-xxx)
+[![build and
+publish](https://github.com/computorg/published-paper-tsne-R/actions/workflows/build.yml/badge.svg)](https://github.com/computorg/published-paper-tsne-R/actions/workflows/build.yml)
+[![DOI:10.57750/xxxxxx](https://img.shields.io/badge/DOI-10.57750/xxxxxx-034E79.svg)](https://doi.org/10.57750/xxxxxx)
 [![reviews](https://img.shields.io/badge/review-report%201-blue.png)](https://github.com/computorg/published-paper-tsne-R/issues?q=is:open is:issue label:review)
 [![Creative Commons
 License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
