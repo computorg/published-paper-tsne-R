@@ -1,5 +1,6 @@
-
 # Visualizing Data using t-SNE (mock contributon)
+Laurens van der Maaten, Geoffrey Hinton
+2008-08-11
 
 *This page is a reworking of the original t-SNE article using the
 Computo template. It aims to help authors submitting to the journal by
@@ -10,7 +11,7 @@ illustrate the Computo spirit.*
 [![build and
 publish](https://github.com/computorg/published-paper-tsne-R/actions/workflows/build.yml/badge.svg)](https://github.com/computorg/published-paper-tsne-R/actions/workflows/build.yml)
 [![DOI:10.57750/xxxxxx](https://img.shields.io/badge/DOI-10.57750/xxxxxx-034E79.svg)](https://doi.org/10.57750/xxxxxx)
-[![reviews](https://img.shields.io/badge/review-report-blue.png)](https://github.com/computorg/published-paper-tsne-R/issues?q=is:open is:issue label:review)
+<!-- [![reviews](https://img.shields.io/badge/review-report-blue)](https://github.com/computorg/published-paper-tsne-R/issues?q=is%3Aopen+is%3Aissue+label%3Areview) -->
 [![Creative Commons
 License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 
