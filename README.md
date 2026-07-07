@@ -8,13 +8,22 @@ using some advanced formatting features. We warmly thank the authors of
 t-SNE and the editor of JMLR for allowing us to use their work to
 illustrate the Computo spirit.*
 
+### Citation
+
+Laurens van der Maaten and Geoffrey Hinton (August 2008). Visualizing Data using t-SNE (mock contribution). Computo.
+<https://doi.org/10.57750/xxx-xxx>
+
+### Badges
+
 [![build and
 publish](https://github.com/computorg/published-paper-tsne-R/actions/workflows/build.yml/badge.svg)](https://github.com/computorg/published-paper-tsne-R/actions/workflows/build.yml)
+[![reviews](https://img.shields.io/badge/review-report-blue)](https://github.com/computorg/published-paper-tsne-R/issues?q=is%3Aopen+is%3Aissue+label%3Areview)
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/computorg/published-paper-tsne-R)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/computorg/published-paper-tsne-R)
 [![DOI:10.57750/xxx-xxx](https://img.shields.io/badge/DOI-10.57750%2Fxxx--xxx-034E79.svg)](https://doi.org/10.57750/xxx-xxx)
 [![Creative Commons
 License](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 
-### Authors
+### Authors’ affiliations
 
 - [Laurens van der Maaten](https://lvdmaaten.github.io/) (TiCC, Tilburg University)
 - [Geoffrey Hinton](https://www.cs.toronto.edu/~hinton/) (Department of Computer Science, University of Toronto)
