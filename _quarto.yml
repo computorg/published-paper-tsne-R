@@ -36,7 +36,8 @@ citation:
   doi: "10.57750/xxx-xxx"
   publisher: "French Statistical Society"
   issn: "2824-7795"
-  url: "https://computo-journal.org/published-paper-tsne/"
+  url: "https://computo-journal.org/published-paper-tsne-R/"
+  pdf-url: "https://computo-journal.org/published-paper-tsne-R/main.pdf"
 
 format: 
   computo-html: default
